@@ -1,0 +1,47 @@
+    {% load static %}
+    
+    <div class="sidebar" data-color="azure" data-background-color="white" data-image="{% static 'img/sidebar-1.jpg' %}">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
+          Scheduler
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="./">
+              <i class="material-icons">dashboard</i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./dept">
+              <i class="material-icons">group</i>
+              <p>Members &amp; Departments</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./device">
+              <i class="material-icons">phone_android</i>
+              <p>Devices</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./database">
+              <i class="material-icons">dns</i>
+              <p>Database</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./payment">
+              <i class="material-icons">attach_money</i>
+              <p>Payments</p>
+            </a>
+          </li>          
+        </ul>
+      </div>
+    </div>
